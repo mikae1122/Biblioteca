@@ -172,6 +172,7 @@
   line-height: 20px;
   color: #838383;
 }
+
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -255,28 +256,28 @@
 }
 
 .person_name_feynman {
-  top: 159px;
-  left: 125px;
+  top: 10%;
+  left: 10%;
 }
 
 .person_name_burbidge {
-  top: -30px;
-  left: 319px;
+  top: 20%;
+  left: 20%;
 }
 
 .person_name_cannon {
-  top: 79px;
-  left: 142px;
+  top: 30%;
+  left: 30%;
 }
 
 .person_name_mitchell {
-  top: 82px;
-  left: 18px;
+  top: 40%;
+  left: 40%;
 }
 
 .person_name_tarter {
-  top: 216px;
-  left: 96px;
+  top: 50%;
+  left: 50%;
 }
 
 .person__image {
