@@ -271,9 +271,9 @@
 }
 
 .person_name_mitchell {
-  bottom: 89px;
+  bottom: 82px;
   left: 142px;
-  
+                                                         
 }
 
 .person_name_tarter {
@@ -302,3 +302,136 @@
   font-size: 14px;
   margin: 0;
 }
+/* Seção Membership */
+.membership {
+  padding-top: 100px;
+  padding-right: 0;
+  padding-bottom: 40px; /* Corrigido para 40px */
+  padding-left: 0;
+  background-color: #057bf2; /* Cor de fundo */
+  color: #ffffff; /* Cor do texto */
+  box-sizing: border-box;
+}
+
+.membership__title {
+  font-size: 24px; /* Corrigido para 24px */
+  font-weight: 500;
+  line-height: 1.2; /* Corrigido para 1.2 */
+  max-width: 90%; /* Corrigido para 90% */
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px; /* Corrigido para 30px */
+  text-align: center; /* Centralização do texto */
+}
+
+.membership__steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Espaço entre itens */
+  list-style-type: none; /* Sem marcadores de lista */
+  padding: 0; /* Sem padding */
+  margin-top: 30px; /* Corrigido para 30px */
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 30px; /* Corrigido para 30px */
+}
+
+.step {
+  flex-basis: 220px; /* Tamanho fixo dos cartões */
+  background-color: #057bf2;
+  color: #ffffff; /* Cor do texto */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.step__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.step__icon {
+  margin-left: 20px; /* Ajuste da margem esquerda */
+}
+
+.step__description {
+  margin-left: 0; /* Adicionando margem lateral conforme necessário */
+  margin-right: 0; /* Adicionando margem lateral conforme necessário */
+  margin-top: 20px; /* Ajustado para 20px */
+  margin-bottom: 20px; /* Mantido para 20px */
+}
+
+/* Rodapé */
+.footer {
+  padding: 60px 40px;
+  background-color: #1f1f1f; /* Fundo do rodapé */
+  color: #ffffff; /* Cor do texto */
+  box-sizing: border-box;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between; /* Distribui as colunas igualmente */
+}
+
+.footer__column {
+  flex: 1;
+  margin: 0 20px; /* Espaçamento lateral das colunas */
+}
+
+.footer__logo {
+  width: 58px; /* Tamanho do logotipo */
+  height: 80px; /* Tamanho do logotipo */
+}
+
+.footer__column_content_hours {
+  margin-left: 40px; /* Corrigido para 40px */
+  margin-bottom: 20px;
+}
+
+.footer__column-heading {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer__column_content_social {
+  margin-left: 40px; /* Corrigido para 40px */
+}
+
+.footer__list {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0;
+  margin: 0; /* Removido qualquer margem padrão */
+}
+
+.footer__list-item {
+  margin-bottom: 10px;
+}
+
+.footer__column_content_social .footer__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer__social-icon {
+  width: 16px; /* Tamanho dos ícones sociais */
+  height: 16px;
+  margin-right: 10px; /* Espaçamento à direita do ícone */
+}
+
+.footer__column-link {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Ajuste do espaçamento entre texto e ícone */
+  color: #ffffff; /* Cor dos links */
+  text-decoration: none;
+}
+
+.footer__copyright {
+  text-align: center;
+  margin-top: 60px; /* Corrigido para 60px */
+  font-size: 14px;
+}
+
